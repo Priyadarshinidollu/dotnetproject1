@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace dotnetproject1
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Sathya");
+            int age = 23;
+            Console.WriteLine(age);
+            Console.ReadLine();
         }
     }
 }
