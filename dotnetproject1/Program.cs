@@ -10,12 +10,16 @@ namespace dotnetproject1
     {
         static void Main(string[] args)
         {
+            string textAge = "-23";
+            int ag = Convert.ToInt32(textAge);
+            Console.WriteLine(ag);
+
             int x = 10, y = 20, z = 6;
 
             int age = 23;
             Console.WriteLine(age);
             Console.WriteLine(int.MaxValue);
-            Console.WriteLine(int.MinValue);
+            Console.WriteLine(int.MinValue); 
 
             long bigNumber = 9000000000L;
             Console.WriteLine(bigNumber);
@@ -39,6 +43,21 @@ namespace dotnetproject1
 
             age = 31;
             Console.WriteLine(age);
+
+            Concepts concepts = new Concepts();
+            concepts.TextBasedData();
+
+            int a = 10;
+            int b = 3;
+            int rem = a % b; Console.ReadLine();
+            Console.WriteLine(rem);
+            a = 5;
+            rem = a % b;
+            string name;
+             Console.Write("my name is  : ");
+            name = Console.ReadLine();
+
+            Console.WriteLine(name);
         }
     }
 }
