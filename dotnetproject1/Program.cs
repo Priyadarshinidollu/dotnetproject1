@@ -10,6 +10,7 @@ namespace dotnetproject1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Sathya");
         }
     }
 }
